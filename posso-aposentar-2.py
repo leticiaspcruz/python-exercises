@@ -1,4 +1,11 @@
-#Faça um programa que determina se você pode se aposentar ou não.
+"""
+Suponha que uma pessoa possa se aposentar pelo INSS caso atenda alguma das situações abaixo:
+• É do sexo masculino, possui pelo menos 65 anos e pelo menos 10 anos de contribuição.
+• É do sexo masculino, possui pelo menos 63 anos e pelo menos 15 anos de contribuição.
+• É do sexo feminino, possui pelo menos 63 anos e pelo menos 10 anos de contribuição.
+• É do sexo feminino, possui pelo menos 61 anos e pelo menos 15 anos de contribuição.
+Crie um programa que leia um caractere (M ou F), que representa o sexo de um indivíduo, e dois inteiros, que representam a idade e o tempo de contribuição. O programa
+deverá então imprimir “Aposentável” se o indivíduo atenda uma das situações acima. Caso contrário, o programa deverá imprimir “Não Aposentável”."""
 if __name__ == 'main':
     sexo = input("sexo (M ou F): ")
     idade = int(input("idade: "))

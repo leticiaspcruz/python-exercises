@@ -1,4 +1,8 @@
-#Faça um programa que transforme as temperaturas de F para C e vice-versa
+"""
+Faça um programa que leia um caractere ‘F’ ou ‘C’, que indica se o próximo valor corresponde à temperatura em Fahrenheit ou Celsius. Em seguida, o programa deve ler o valor
+da temperatura e então imprimir o valor correspondente à temperatura na outra unidade
+de medida. Observação: (C = 5/9 × (F − 32))."""
+
 def fahrenheit_to_celsius(value_in_fahrenheit):
     return 5 / 9 * (value_in_fahrenheit - 32)
 

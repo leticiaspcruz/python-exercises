@@ -1,4 +1,8 @@
-#Faça um programa que determine qual é o tipo do triângulo a partir dos seus ângulos.
+"""
+Faça um programa que leia os valores correspondentes aos três lados a, b e c de um triângulo. O programa então deve determinar se o triângulo é isósceles, escaleno ou equilátero,
+informando isto para o usuário, e em seguida o programa deve imprimir a área A do
+triângulo utilizando a fórmula de Heron."""
+
 if __name__ == '__main__':
     a = int(input("digite a: "))
     b = int(input("digite b: "))
